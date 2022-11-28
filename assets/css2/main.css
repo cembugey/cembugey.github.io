@@ -3863,10 +3863,12 @@ input, select, textarea {
 
 			#main > .posts > article {
 				border-color: #eeeeee;
-				border-left-width: 2px  !important;
+				border-left-width: 1px  !important;
 				border-style: solid;
-				border-top-width: 2px   !important;
+				border-top-width: 1px   !important;
 				text-align: center    !important;
+				border-right-width: 1px  !important;
+				border-bottom-width: 1px  !important;
 			}
 
 				#main > .posts > article > :last-child {
@@ -4752,3 +4754,22 @@ input, select, textarea {
 	width: 367px !important;
 	height: 180px !important;
 }
+
+.cardList {
+	text-align: left;
+}
+
+.stackTag {
+	text-decoration: none;
+  white-space: nowrap;
+	font-size: 1rem;
+  	color: white;
+	background-color: #909498;
+    padding: 0.3em 0.85em;
+    border: 1px solid #909498;
+    border-radius: 2em;
+    transition: transform 0.2s;
+    transition-timing-function: cubic-bezier(0.45, -0.85, 0.55, -0.45);
+}
+
+
