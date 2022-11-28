@@ -3863,33 +3863,33 @@ input, select, textarea {
 
 			#main > .posts > article {
 				border-color: #eeeeee;
-				border-left-width: 2px;  !important
+				border-left-width: 2px  !important;
 				border-style: solid;
-				border-top-width: 2px;   !important
-				text-align: center;    !important
+				border-top-width: 2px   !important;
+				text-align: center    !important;
 			}
 
 				#main > .posts > article > :last-child {
-					margin-bottom: 0;   !important
+					margin-bottom: 0  !important;
 				}
 
 				#main > .posts > article:nth-child(2n - 1) {
-					border-left-width: 0;    !important
+					border-left-width: 0  !important;
 				}
 
 				#main > .posts > article:nth-child(-n + 2) {
-					border-top-width: 0;    !important
+					border-top-width: 0   !important;
 				}
 
 			@media screen and (max-width: 980px) {
 
 				#main > .posts > * {
-					width: 50%;    !important
+					width: 50%   !important;
 				}
 
 				#main > .posts > * {
-					padding: 2.5rem;      !important
-					width: 50%;       !important
+					padding: 2.5rem     !important;
+					width: 50%       !important;
 				}
 
 			}
@@ -3897,28 +3897,28 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				#main > .posts > * {
-					width: 100%;       !important
+					width: 100%      !important;
 				}
 
 				#main > .posts > * {
-					padding: 2rem;     !important
-					width: 100%;        !important
+					padding: 2rem     !important;
+					width: 100%       !important;
 				}
 
 				#main > .posts > article:nth-child(2n - 1) {
-					border-left-width: 2px;     !important
+					border-left-width: 2px     !important;
 				}
 
 				#main > .posts > article:nth-child(-n + 2) {
-					border-top-width: 2px;      !important
+					border-top-width: 2px      !important;
 				}
 
 				#main > .posts > article:nth-child(n) {
-					border-left-width: 0;    !important
+					border-left-width: 0    !important;
 				}
 
 				#main > .posts > article:nth-child(-n + 1) {
-					border-top-width: 0;      !important
+					border-top-width: 0      !important;
 				}
 
 				#main > .posts > article .image {
@@ -4742,4 +4742,13 @@ input, select, textarea {
 #imagecontainer2:hover {
 	 -webkit-transform:scale(1.8); /* or some other value */
 	 transform:scale(1.8);
+}
+
+.cardHeader {
+	height: 67px;
+}
+
+.cardImage {
+	width: 367px !important;
+	height: 180px !important;
 }
