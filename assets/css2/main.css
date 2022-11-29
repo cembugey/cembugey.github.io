@@ -4737,13 +4737,14 @@ input, select, textarea {
 	}
 
 .imagecontainer:hover {
-	 -webkit-transform:scale(1.7); /* or some other value */
-	 transform:scale(1.7);
+	 -webkit-transform:scale(1.4); /* or some other value */
+	 transform:scale(1.4);
+	 z-index: 10;
 }
 
 #imagecontainer2:hover {
-	 -webkit-transform:scale(1.8); /* or some other value */
-	 transform:scale(1.8);
+	 -webkit-transform:scale(1.5); /* or some other value */
+	 transform:scale(1.5);
 }
 
 .cardHeader {
@@ -4770,6 +4771,11 @@ input, select, textarea {
     border-radius: 2em;
     transition: transform 0.2s;
     transition-timing-function: cubic-bezier(0.45, -0.85, 0.55, -0.45);
+}
+
+.cardDescription {
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 
